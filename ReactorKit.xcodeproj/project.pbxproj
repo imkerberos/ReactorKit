@@ -20,7 +20,6 @@
 
 /* Begin PBXFileReference section */
 		ABAF97C7202E9BFA00EA0407 /* ReactorKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactorKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ABAF97CB202E9BFA00EA0407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABAF97D4202E9D0800EA0407 /* ReactorKitRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactorKitRuntime.m; sourceTree = "<group>"; };
 		ABAF97D6202E9D0800EA0407 /* ReactorKitRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactorKitRuntime.h; sourceTree = "<group>"; };
 		ABAF97D8202E9D0800EA0407 /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
@@ -64,7 +63,6 @@
 		ABAF97D2202E9D0800EA0407 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				ABAF97CB202E9BFA00EA0407 /* Info.plist */,
 				ABAF97D7202E9D0800EA0407 /* ReactorKit */,
 				ABAF97D3202E9D0800EA0407 /* ReactorKitRuntime */,
 			);
@@ -345,7 +343,6 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -370,7 +367,6 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
